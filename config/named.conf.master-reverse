@@ -1,0 +1,49 @@
+zone "147.47.193.in-addr.arpa" {
+        type master;
+        file "/etc/bind/master/db.147.47.193.in-addr.arpa.signed";
+};
+
+zone "252.177.195.in-addr.arpa" {
+        type master;
+        file "/etc/bind/master/db.252.177.195.in-addr.arpa.signed";
+};
+
+zone "253.177.195.in-addr.arpa" {
+        type master;
+        file "/etc/bind/master/db.253.177.195.in-addr.arpa.signed";
+};
+
+zone "0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa" {
+        type master;
+        file "/etc/bind/master/db.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.signed";
+};
+
+zone "1.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa" {
+        type master;
+        file "/etc/bind/master/db.1.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.signed";
+};
+
+zone "2.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa" {
+        type master;
+        file "/etc/bind/master/db.2.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.signed";
+};
+
+zone "3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa" {
+        type master;
+        file "/etc/bind/master/db.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.signed";
+};
+
+zone "169.92.155.90.in-addr.arpa" {
+        type master;
+        file "/etc/bind/master/db.169.92.155.90.in-addr.arpa";
+};
+
+zone "0.0.2.1.0.b.8.0.1.0.0.2.ip6.arpa" {
+        type master;
+        file "/etc/bind/master/db.0.0.2.1.0.b.8.0.1.0.0.2.ip6.arpa";
+};
+
+zone "181.232.91.in-addr.arpa" {
+	type master;
+	file "/etc/bind/master/db.181.232.91.in-addr.arpa";
+};
