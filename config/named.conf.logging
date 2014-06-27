@@ -1,0 +1,67 @@
+logging {
+        channel general {
+                file "/var/log/named/general" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel security {
+                file "/var/log/named/security" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel misconfigurations {
+                file "/var/log/named/misconfigurations" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel zoneops {
+                file "/var/log/named/zoneops" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel stats {
+                file "/var/log/named/stats" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+	channel xferin {
+                file "/var/log/named/xferin" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+	channel xferout {
+                file "/var/log/named/xferout" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel notify {
+                file "/var/log/named/notify" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel config {
+                file "/var/log/named/config" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+        channel dnssec {
+                file "/var/log/named/dnssec" size 5m versions 5;
+                print-time yes;
+                print-category yes; };
+
+
+//        channel queries {
+//                file "/var/log/named/queries";
+//                print-time yes;
+//                severity dynamic; };
+
+        category security { security; };
+        category lame-servers { misconfigurations; };
+        category xfer-in { xferin; };
+        category xfer-out { xferout; };
+        category notify { notify; };
+//        category queries { queries; };
+        category config { config; };
+        category dnssec { dnssec; };
+        category default { general; };
+};

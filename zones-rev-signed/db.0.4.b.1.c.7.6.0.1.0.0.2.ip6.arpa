@@ -1,0 +1,29 @@
+$ORIGIN .
+;
+; 2001:67c:1b40::/48
+;
+$TTL 1h	; Default TTL
+0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa	IN	SOA	ns0.esgob.co.uk.	nat.esgob.com. (
+ 2014062706   ; serial     
+                                43200      ; refresh (12 hours)
+                                600        ; retry (10 minutes)
+                                1209600    ; expire (2 weeks)
+                                3600       ; minimum (1 hour)
+)
+
+		  NS	  ns0.esgob.co.uk.
+		  NS	  ns1.esgob.com.
+		  NS	  ns2.esgob.com.
+
+; IPv6 PTR entries
+$ORIGIN .
+6.6.1.0.0.0.0.0.0.0.0.0.0.0.0.0.6.6.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     ns0.esgob.co.uk.
+2.8.1.0.0.0.0.0.0.0.0.0.0.0.0.0.2.8.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     clonc.esgob.com.
+2.9.1.0.0.0.0.0.0.0.0.0.0.0.0.0.2.9.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     api.esgob.com.
+4.9.1.0.0.0.0.0.0.0.0.0.0.0.0.0.4.9.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     www.esgob.com.
+6.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.6.4.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     wyntog.esgob.com.
+2.4.1.0.0.0.0.0.0.0.0.0.0.0.0.0.2.4.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     axfr.esgob.com.
+0.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     resolver1.esgob.com.
+1.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     resolver2.esgob.com.
+8.7.1.0.0.0.0.0.0.0.0.0.0.0.0.0.8.7.1.0.0.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     parth.esgob.com.
+

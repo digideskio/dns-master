@@ -1,0 +1,21 @@
+$ORIGIN .
+;
+; 2001:67c:1b43::/48
+;
+$TTL 1h	; Default TTL
+3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa	IN	SOA	ns0.esgob.co.uk.	nat.esgob.com. (
+ 2014062706   ; serial     
+                                43200      ; refresh (12 hours)
+                                600        ; retry (10 minutes)
+                                1209600    ; expire (2 weeks)
+                                3600       ; minimum (1 hour)
+)
+
+		  NS	  ns0.esgob.co.uk.
+		  NS	  ns1.esgob.com.
+		  NS	  ns2.esgob.com.
+
+; IPv6 PTR entries
+$ORIGIN .
+0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     ns1.esgob.com.
+0.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     ns2.esgob.com.

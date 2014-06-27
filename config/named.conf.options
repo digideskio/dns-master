@@ -1,0 +1,25 @@
+options {
+	directory "/var/cache/bind";
+
+	//========================================================================
+	// If BIND logs error messages about the root key being expired,
+	// you will need to update your keys.  See https://www.isc.org/bind-keys
+	//========================================================================
+	dnssec-validation auto;
+	dnssec-enable yes;
+	auth-nxdomain no;    # conform to RFC1035
+	listen-on-v6 { any; };
+        allow-transfer { 195.177.253.142; };
+        also-notify { 195.177.253.142; };
+	notify explicit;
+	version "";
+	hostname "";
+	rate-limit {
+	    responses-per-second 15;
+	    window 5;
+	};
+};
+
+statistics-channels {
+  inet 127.0.0.1 port 8053;
+};

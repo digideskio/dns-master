@@ -1,0 +1,14 @@
+zone "169.92.155.90.in-addr.arpa" {
+        type master;
+        file "/etc/bind/dns-master/zones-rev-unsigned/db.169.92.155.90.in-addr.arpa";
+};
+
+zone "0.0.2.1.0.b.8.0.1.0.0.2.ip6.arpa" {
+        type master;
+        file "/etc/bind/dns-master/zones-rev-unsigned/db.0.0.2.1.0.b.8.0.1.0.0.2.ip6.arpa";
+};
+
+zone "181.232.91.in-addr.arpa" {
+        type master;
+        file "/etc/bind/dns-master/zones-rev-unsigned/db.181.232.91.in-addr.arpa";
+};
