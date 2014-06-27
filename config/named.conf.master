@@ -10,7 +10,7 @@ zone "esgob.co.uk" {
 
 zone "esgob.net" {
         type master;
-        file "/etc/bind/master/db.esgob.net";
+        file "/etc/bind/dns-master/zones-unsigned/db.esgob.net";
 };
 
 zone "hw.esgob.com" {
@@ -95,17 +95,17 @@ zone "natmorris.co.uk" {
 
 zone "ixcymru.com" {
         type master;
-        file "/etc/bind/master/db.ixcymru.com";
+        file "/etc/bind/dns-master/zones-unsigned/db.ixcymru.com";
 };
 
 zone "ixcymru.org" {
         type master;
-        file "/etc/bind/master/db.ixcymru.org";
+        file "/etc/bind/dns-master/zones-unsigned/db.ixcymru.org";
 };
 
 zone "ixcymru.co.uk" {
         type master;
-        file "/etc/bind/master/db.ixcymru.co.uk";
+        file "/etc/bind/dns-master/zones-unsigned/db.ixcymru.co.uk";
 };
 
 zone "nat.ms" {
@@ -115,5 +115,5 @@ zone "nat.ms" {
 
 zone "strumble.net" {
 	type master;
-	file "/etc/bind/master/db.strumble.net";
+	file "/etc/bind/dns-master/zones-unsigned/db.strumble.net";
 };
