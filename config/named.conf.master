@@ -10,7 +10,7 @@ zone "esgob.co.uk" {
 
 zone "esgob.net" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.esgob.net";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.esgob.net";
 };
 
 zone "hw.esgob.com" {
@@ -35,52 +35,52 @@ zone "test.esgob.com" {
 
 zone "z1.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z1.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z1.test.esgob.com";
 };
 
 zone "z2.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z2.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z2.test.esgob.com";
 };
 
 zone "z3.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z3.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z3.test.esgob.com";
 };
 
 zone "z4.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z4.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z4.test.esgob.com";
 };
 
 zone "z5.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z5.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z5.test.esgob.com";
 };
 
 zone "z6.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z6.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z6.test.esgob.com";
 };
 
 zone "z7.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z7.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z7.test.esgob.com";
 };
 
 zone "z8.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z8.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z8.test.esgob.com";
 };
 
 zone "z9.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z9.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z9.test.esgob.com";
 };
 
 zone "z10.test.esgob.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.z10.test.esgob.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.z10.test.esgob.com";
 };
 
 zone "nuqe.net" {
@@ -95,25 +95,25 @@ zone "natmorris.co.uk" {
 
 zone "ixcymru.com" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.ixcymru.com";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.ixcymru.com";
 };
 
 zone "ixcymru.org" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.ixcymru.org";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.ixcymru.org";
 };
 
 zone "ixcymru.co.uk" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.ixcymru.co.uk";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.ixcymru.co.uk";
 };
 
 zone "nat.ms" {
         type master;
-        file "/etc/bind/dns-master/zones-unsigned/db.nat.ms";
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.nat.ms";
 };
 
 zone "strumble.net" {
 	type master;
-	file "/etc/bind/dns-master/zones-unsigned/db.strumble.net";
+	file "/etc/bind/dns-master/zones-fwd-unsigned/db.strumble.net";
 };
