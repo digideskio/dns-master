@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2014062709   ; serial     
+ 2014062801   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -57,6 +57,7 @@ dump			IN	A		195.177.253.31
 apunderstairs1		IN	A		195.177.253.32
 aploft1			IN	A		195.177.253.33
 apgarage1		IN	A		195.177.253.34
+csgvm			IN	A		195.177.253.35
 ty1			IN	A		195.177.253.237
 ty2			IN	A		195.177.253.238
 labsw1			IN	A		195.177.253.239
