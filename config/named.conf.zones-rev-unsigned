@@ -12,3 +12,152 @@ zone "181.232.91.in-addr.arpa" {
         type master;
         file "/etc/bind/dns-master/zones-rev-unsigned/db.181.232.91.in-addr.arpa";
 };
+
+// esgob ltd - RIPE PA
+
+zone "148.19.185.in-addr.arpa" {
+	// 185.19.148.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.148.19.185.in-addr.arpa";
+};
+
+zone "149.19.185.in-addr.arpa" {
+	// 185.19.149.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.149.19.185.in-addr.arpa";
+};
+
+zone "150.19.185.in-addr.arpa" {
+	// 185.19.150.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.150.19.185.in-addr.arpa";
+};
+
+zone "151.19.185.in-addr.arpa" {
+	// 185.19.151.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.151.19.185.in-addr.arpa";
+};
+
+zone "0.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec40::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.0.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "1.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec41::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.1.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "2.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec42::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.2.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "3.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec43::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.3.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "4.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec44::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.4.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "5.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec45::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.5.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "6.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec46::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.6.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+zone "7.4.c.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ec47::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.7.4.c.e.4.0.a.2.ip6.arpa";
+};
+
+// strumble head ltd - RIPE PA
+
+zone "112.61.185.in-addr.arpa" {
+	// 185.61.112.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.112.61.185.in-addr.arpa";
+};
+
+zone "113.61.185.in-addr.arpa" {
+	// 185.61.113.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.113.61.185.in-addr.arpa";
+};
+
+zone "114.61.185.in-addr.arpa" {
+	// 185.61.114.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.114.61.185.in-addr.arpa";
+};
+
+zone "115.61.185.in-addr.arpa" {
+	// 185.61.115.0/24
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.115.61.185.in-addr.arpa";
+};
+
+zone "0.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc0::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.0.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "1.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc1::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.1.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "2.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc2::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.2.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "3.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc3::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.3.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "4.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc4::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.4.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "5.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc5::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.5.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "6.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc6::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.6.c.b.e.4.0.a.2.ip6.arpa";
+};
+
+zone "7.c.b.e.4.0.a.2.ip6.arpa" {
+	// 2a04:ebc7::/32
+	type master;
+	file "/etc/bind/dns-master/zones-rev-unsigned/db.7.c.b.e.4.0.a.2.ip6.arpa";
+};
+

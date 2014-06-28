@@ -1,0 +1,15 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+3.4.c.e.4.0.a.2.ip6.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
+				2014062801   ; serial
+                                43200      ; refresh (12 hours)
+                                600        ; retry (10 minutes)
+                                1209600    ; expire (2 weeks)
+                                3600       ; minimum (1 hour)
+				)
+
+				NS	ns0.esgob.co.uk.
+				NS	ns1.esgob.com.
+				NS	ns2.esgob.com.
+
+$ORIGIN 3.4.c.e.4.0.a.2.ip6.arpa.
