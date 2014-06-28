@@ -18,24 +18,6 @@ $ORIGIN natmorris.co.uk.
 			IN	MX	30	ASPMX2.GOOGLEMAIL.COM.	
 			IN	MX	30	ASPMX3.GOOGLEMAIL.COM.
 
-_xmpp-server._tcp IN SRV 5 0 5269 xmpp-server.l.google.com.
-_xmpp-server._tcp IN SRV 20 0 5269 alt1.xmpp-server.l.google.com.
-_xmpp-server._tcp IN SRV 20 0 5269 alt2.xmpp-server.l.google.com.
-_xmpp-server._tcp IN SRV 20 0 5269 alt3.xmpp-server.l.google.com.
-_xmpp-server._tcp IN SRV 20 0 5269 alt4.xmpp-server.l.google.com.
-
-_jabber._tcp IN SRV 5 0 5269 xmpp-server.l.google.com.
-_jabber._tcp IN SRV 20 0 5269 alt1.xmpp-server.l.google.com.
-_jabber._tcp IN SRV 20 0 5269 alt2.xmpp-server.l.google.com.
-_jabber._tcp IN SRV 20 0 5269 alt3.xmpp-server.l.google.com.
-_jabber._tcp IN SRV 20 0 5269 alt4.xmpp-server.l.google.com.
-
-_xmpp-client._tcp IN SRV 5 0 5222 xmpp.l.google.com.
-_xmpp-client._tcp IN SRV 20 0 5222 alt1.xmpp.l.google.com.
-_xmpp-client._tcp IN SRV 20 0 5222 alt2.xmpp.l.google.com.
-_xmpp-client._tcp IN SRV 20 0 5222 alt3.xmpp.l.google.com.
-_xmpp-client._tcp IN SRV 20 0 5222 alt4.xmpp.l.google.com.
-
 			IN	A		195.177.253.146
 			IN	AAAA		2001:67c:1b40:146::146
 
