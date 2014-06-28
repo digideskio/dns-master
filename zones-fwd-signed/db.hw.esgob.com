@@ -58,6 +58,11 @@ apunderstairs1		IN	A		195.177.253.32
 aploft1			IN	A		195.177.253.33
 apgarage1		IN	A		195.177.253.34
 csgvm			IN	A		195.177.253.35
+csgflow			IN	A		195.177.253.36
+bind.test		IN	A		195.177.253.37
+knot.test		IN	A		195.177.253.38
+nsd.test		IN	A		195.177.253.39
+pdns.test		IN	A		195.177.253.40
 ty1			IN	A		195.177.253.237
 ty2			IN	A		195.177.253.238
 labsw1			IN	A		195.177.253.239

@@ -46,11 +46,11 @@ $ORIGIN 253.177.195.in-addr.arpa.
 33			PTR	aploft1.hw.esgob.com.
 34			PTR	apgarage1.hw.esgob.com.
 35			PTR	csgvm.hw.esgob.com.
-36			PTR	unassigned.hw.esgob.com.
-37			PTR	unassigned.esgob.com.
-38			PTR	unassigned.esgob.com.
-39			PTR	unassigned.esgob.com.
-40			PTR	unassigned.esgob.com.
+36			PTR	csgflow.hw.esgob.com.
+37			PTR	bind.test.hw.esgob.com.
+38			PTR	knot.test.hw.esgob.com.
+39			PTR	nsd.test.esgob.com.
+40			PTR	pdns.test.esgob.com.
 41			PTR	unassigned.esgob.com.
 42			PTR	unassigned.esgob.com.
 43			PTR	unassigned.esgob.com.
