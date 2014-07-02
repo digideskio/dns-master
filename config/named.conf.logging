@@ -50,10 +50,10 @@ logging {
                 print-category yes; };
 
 
-//        channel queries {
-//                file "/var/log/named/queries";
-//                print-time yes;
-//                severity dynamic; };
+        channel queries {
+                file "/var/log/named/queries" size 5m versions 5;
+                print-time yes;
+                severity dynamic; };
 
         category security { security; };
         category lame-servers { misconfigurations; };

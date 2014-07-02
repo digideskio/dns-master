@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2014062804   ; serial     
+ 2014062805   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -71,4 +71,9 @@ zen			IN	A		82.69.41.81
 puppet			IN	CNAME		puppet.esgob.com.
 cfsvr.test		IN	A		195.177.253.58
 cfclient1.test		IN	A		195.177.253.55
-
+spot			IN	A		185.61.112.64
+stripe			IN	A		185.61.112.65
+resolver1		IN	A		185.61.112.66
+resolver2		IN	A		185.61.112.67
+eth1.spot		IN	A		185.61.112.81
+eth1.stripe		IN	A		185.61.112.82
