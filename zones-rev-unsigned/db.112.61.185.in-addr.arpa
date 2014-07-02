@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 112.61.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062802   ; serial
+				2014062803   ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -13,9 +13,9 @@ $TTL 3600	; 1 hour
 				NS	ns2.esgob.com.
 
 $ORIGIN 112.61.185.in-addr.arpa.
-64			PTR	spot.hw.esgob.com
-65			PTR	stripe.hw.esgob.com
-66			PTR	resolver1.hw.esgob.com
-67			PTR	resolver2.hw.esgob.com
-81			PTR	eth1.spot.hw.esgob.com
-82			PTR	eth1.stripe.hw.esgob.com
+64			PTR	spot.hw.esgob.com.
+65			PTR	stripe.hw.esgob.com.
+66			PTR	resolver1.hw.esgob.com.
+67			PTR	resolver2.hw.esgob.com.
+81			PTR	eth1.spot.hw.esgob.com.
+82			PTR	eth1.stripe.hw.esgob.com.
