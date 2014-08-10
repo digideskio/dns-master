@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 112.61.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062803   ; serial
+				2014062806 ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -13,9 +13,32 @@ $TTL 3600	; 1 hour
 				NS	ns2.esgob.com.
 
 $ORIGIN 112.61.185.in-addr.arpa.
+
+; 185.61.112.0/26
+1			PTR	vrrp-8.hw.esgob.com.
+2			PTR	eth1-8.spot.hw.esgob.com.
+3			PTR	eth1-8.stripe.hw.esgob.com.
+
+; 185.61.112.64/28
 64			PTR	spot.hw.esgob.com.
 65			PTR	stripe.hw.esgob.com.
 66			PTR	resolver1.hw.esgob.com.
 67			PTR	resolver2.hw.esgob.com.
-81			PTR	eth1.spot.hw.esgob.com.
-82			PTR	eth1.stripe.hw.esgob.com.
+
+; 185.61.112.80/30
+81			PTR	eth0.spot.hw.esgob.com.
+82			PTR	eth0.stripe.hw.esgob.com.
+
+; 185.61.112.96/28
+97			PTR	vrrp-10.hw.esgob.com.
+98			PTR	eth1-10.spot.hw.esgob.com.
+99			PTR	eth1-10.stripe.hw.esgob.com.
+
+; 185.61.112.128/28
+129			PTR	vrrp-7.hw.esgob.com.
+130			PTR	eth1-7.spot.hw.esgob.com.
+131			PTR	eth1-7.stripe.hw.esgob.com.
+132			PTR	hpsw1.hw.esgob.com.
+133			PTR	ap1.hw.esgob.com.
+134			PTR	ap2.hw.esgob.com.
+135			PTR	ap3.hw.esgob.com.

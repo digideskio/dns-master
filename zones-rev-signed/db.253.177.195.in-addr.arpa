@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 253.177.195.in-addr.arpa	IN SOA	ns0.esgob.co.uk nat.esgob.com (
- 2014080101   ; serial     
+ 2014081001   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -11,14 +11,14 @@ $TTL 3600	; 1 hour
 			NS	ns1.esgob.com.
 			NS	ns2.esgob.com.
 $ORIGIN 253.177.195.in-addr.arpa.
-1			PTR	vrrp.ty.hw.esgob.com.
+1			PTR	vrrp-9.hw.esgob.com.
 2			PTR	homenas1.hw.esgob.com.
-3			PTR	hpsw1.hw.esgob.com.
-4			PTR	esx1.hw.esgob.com.
-5			PTR	proxmox1.hw.esgob.com.
+3			PTR	unassigned.hw.esgob.com.
+4			PTR	unassigned.hw.esgob.com.
+5			PTR	unassigned.hw.esgob.com.
 6			PTR	unassigned.hw.esgob.com.
-7			PTR	eth0.ty1.hw.esgob.com.
-8			PTR	eth0.ty2.hw.esgob.com.
+7			PTR	eth1-9.spot.hw.esgob.com.
+8			PTR	eth1-9.strip.hw.esgob.com.
 9			PTR	homewlc1.hw.esgob.com.
 10			PTR	outsidecam1.hw.esgob.com.
 11			PTR	axiscam1.hw.esgob.com.
@@ -27,7 +27,7 @@ $ORIGIN 253.177.195.in-addr.arpa.
 14			PTR	feedernanode.hw.esgob.com.
 15			PTR	atlasesgob1.hw.esgob.com.
 16			PTR	dash.hw.esgob.com.
-17			PTR	labpuppet.hw.esgob.com.
+17			PTR	unassigned.hw.esgob.com.
 18			PTR	airportlounge.hw.esgob.com.
 19			PTR	airportkitchen.hw.esgob.com.
 20			PTR	natair.hw.esgob.com.
@@ -45,12 +45,12 @@ $ORIGIN 253.177.195.in-addr.arpa.
 32			PTR	apunderstairs1.hw.esgob.com.
 33			PTR	aploft1.hw.esgob.com.
 34			PTR	apgarage1.hw.esgob.com.
-35			PTR	csgvm.hw.esgob.com.
-36			PTR	csgflow.hw.esgob.com.
-37			PTR	bind.test.hw.esgob.com.
-38			PTR	knot.test.hw.esgob.com.
-39			PTR	nsd.test.esgob.com.
-40			PTR	pdns.test.esgob.com.
+35			PTR	unassigned.esgob.com.
+36			PTR	unassigned.esgob.com.
+37			PTR	unassigned.esgob.com.
+38			PTR	unassigned.esgob.com.
+39			PTR	unassigned.esgob.com.
+40			PTR	unassigned.esgob.com.
 41			PTR	unassigned.esgob.com.
 42			PTR	unassigned.esgob.com.
 43			PTR	unassigned.esgob.com.
@@ -75,12 +75,12 @@ $ORIGIN 253.177.195.in-addr.arpa.
 62			PTR	dhcp62.hw.esgob.com.
 63			PTR	unassigned.esgob.com.
 64			PTR	unassigned.esgob.com.
-65			PTR	eth0.cartref.hw.esgob.com.
+65			PTR	unassigned.esgob.com.
 66			PTR	unassigned.esgob.com.
-67			PTR	eth1.ty1.hw.esgob.com.
-68			PTR	eth1.ty2.hw.esgob.com.
+67			PTR	unassigned.esgob.com.
+68			PTR	unassigned.esgob.com.
 69			PTR	unassigned.esgob.com.
-70			PTR	vl19.labsw1.hw.esgob.com.
+70			PTR	unassigned.esgob.com.
 71			PTR	unassigned.esgob.com.
 72			PTR	unassigned.esgob.com.
 73			PTR	unassigned.esgob.com.
@@ -91,20 +91,20 @@ $ORIGIN 253.177.195.in-addr.arpa.
 78			PTR	unassigned.esgob.com.
 79			PTR	unassigned.esgob.com.
 80			PTR	unassigned.esgob.com.
-81			PTR	cartref.guests.hw.esgob.com.
-82			PTR	guest82.hw.esgob.com.
-83			PTR	guest83.hw.esgob.com.
-84			PTR	guest84.hw.esgob.com.
-85			PTR	guest85.hw.esgob.com.
-86			PTR	guest86.hw.esgob.com.
-87			PTR	guest87.hw.esgob.com.
-88			PTR	guest88.hw.esgob.com.
-89			PTR	guest89.hw.esgob.com.
-90			PTR	guest90.hw.esgob.com.
-91			PTR	guest91.hw.esgob.com.
-92			PTR	guest92.hw.esgob.com.
-93			PTR	guest93.hw.esgob.com.
-94			PTR	guest94.hw.esgob.com.
+81			PTR	unassigned.esgob.com.
+82			PTR	unassigned.esgob.com.
+83			PTR	unassigned.esgob.com.
+84			PTR	unassigned.esgob.com.
+85			PTR	unassigned.esgob.com.
+86			PTR	unassigned.esgob.com.
+87			PTR	unassigned.esgob.com.
+88			PTR	unassigned.esgob.com.
+89			PTR	unassigned.esgob.com.
+90			PTR	unassigned.esgob.com.
+91			PTR	unassigned.esgob.com.
+92			PTR	unassigned.esgob.com.
+93			PTR	unassigned.esgob.com.
+94			PTR	unassigned.esgob.com.
 95			PTR	unassigned.esgob.com.
 96			PTR	unassigned.esgob.com.
 97			PTR	unassigned.esgob.com.
@@ -235,23 +235,22 @@ $ORIGIN 253.177.195.in-addr.arpa.
 222			PTR	unassigned.esgob.com.
 223			PTR	unassigned.esgob.com.
 224			PTR	unassigned.esgob.com.
-225			PTR	tun1.braf.hex67.esgob.com.
-226			PTR	tun1.cartref.hw.esgob.com.
+225			PTR	unassigned.esgob.com.
+226			PTR	unassigned.esgob.com.
 227			PTR	unassigned.esgob.com.
 228			PTR	unassigned.esgob.com.
-229			PTR	tun2.braf.hex67.esgob.com.
-230			PTR	tun2.cartref.hw.esgob.com.
+229			PTR	unassigned.esgob.com.
+230			PTR	unassigned.esgob.com.
 231			PTR	unassigned.esgob.com.
-232			PTR	unassigned.esgob.com.
-233			PTR	tun3.braf.hex67.esgob.com.
-234			PTR	tun3.cartref.hw.esgob.com.
+233			PTR	unassigned.esgob.com.
+234			PTR	unassigned.esgob.com.
 235			PTR	unassigned.esgob.com.
 236			PTR	unassigned.esgob.com.
-237			PTR	ty1.hw.esgob.com.
-238			PTR	ty2.hw.esgob.com.
-239			PTR	labsw1.hw.esgob.com.
-240			PTR	ty.hw.esgob.com.
-241			PTR	cartref.esgob.com.
+237			PTR	unassigned.esgob.com.
+238			PTR	unassigned.esgob.com.
+239			PTR	unassigned.esgob.com.
+240			PTR	unassigned.esgob.com.
+241			PTR	unassigned.esgob.com.
 242			PTR	unassigned.esgob.com.
 243			PTR	unassigned.esgob.com.
 244			PTR	unassigned.esgob.com.
