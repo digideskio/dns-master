@@ -19,7 +19,6 @@ vrrp-9			IN	A		195.177.253.1
 homenas1		IN	A		195.177.253.2
 eth1-9.spot		IN	A		195.177.253.7
 eth1-9.stripe		IN	A		195.177.253.8
-homewlc1		IN	A		195.177.253.9
 eth0.cartref		IN	A		195.177.253.65
 eth1.ty1		IN	A		195.177.253.67
 eth1.ty2		IN	A		195.177.253.68
@@ -49,10 +48,6 @@ claireair		IN	A		195.177.253.24
 sipgigaset1		IN	A		195.177.253.26
 screen1			IN	A		195.177.253.28
 youview1		IN	A		195.177.253.29
-dump			IN	A		195.177.253.31
-apunderstairs1		IN	A		195.177.253.32
-aploft1			IN	A		195.177.253.33
-apgarage1		IN	A		195.177.253.34
 labsw1			IN	A		195.177.253.239
 			IN	AAAA		2001:67c:1b42::240
 zen			IN	A		82.69.41.81
