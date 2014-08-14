@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 112.61.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062806 ; serial
+				2014062808 ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -18,6 +18,22 @@ $ORIGIN 112.61.185.in-addr.arpa.
 1			PTR	vrrp-8.hw.esgob.com.
 2			PTR	eth1-8.spot.hw.esgob.com.
 3			PTR	eth1-8.stripe.hw.esgob.com.
+
+20			PTR	printer1.hw.esgob.com.
+
+31			PTR	claireair.hw.esgob.com.
+32			PTR	loft.hw.esgob.com.
+33			PTR	natair.hw.esgob.com.
+34			PTR	natcb.hw.esgob.com.
+
+41			PTR	airportkitchen.hw.esgob.com.
+42			PTR	airportlounge.hw.esgob.com.
+43			PTR	airportoffice.hw.esgob.com.
+44			PTR	airportspare.hw.esgob.com.
+
+
+
+
 
 ; 185.61.112.64/28
 64			PTR	spot.hw.esgob.com.

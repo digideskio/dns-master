@@ -38,16 +38,24 @@ feedernanode		IN	A		195.177.253.14
 atlasesgob1		IN	A		195.177.253.15
 dash			IN	A		195.177.253.16	
                         IN      AAAA            2001:67c:1b42:3::16
-airportlounge		IN	A		195.177.253.18
-airportkitchen		IN	A		195.177.253.19	
-natair			IN	A		195.177.253.20
+
+printer1		IN	A		185.61.112.20
+
+claireair		IN	A		185.61.112.31
+loft			IN	A		185.61.112.32
+natair			IN	A		185.61.112.33
+natcb			IN	A		185.61.112.34
+
+airportkitchen		IN	A		186.61.112.41
+airportlounge		IN	A		185.61.112.42
+airportoffice		IN	A		185.61.112.43
+airportspare		IN	A		185.61.112.44
+youview1		IN	A		185.61.112.45
+
 currentcost1		IN	A		195.177.253.21
-printer1		IN	A		195.177.253.22	
-loft			IN	A		195.177.253.23
-claireair		IN	A		195.177.253.24
+
 sipgigaset1		IN	A		195.177.253.26
 screen1			IN	A		195.177.253.28
-youview1		IN	A		195.177.253.29
 labsw1			IN	A		195.177.253.239
 			IN	AAAA		2001:67c:1b42::240
 zen			IN	A		82.69.41.81
