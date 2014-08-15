@@ -20,6 +20,7 @@ $ORIGIN 112.61.185.in-addr.arpa.
 3			PTR	eth1-8.stripe.hw.esgob.com.
 
 20			PTR	printer1.hw.esgob.com.
+21			PTR	sipgigaset1.hw.esgob.com.
 
 31			PTR	claireair.hw.esgob.com.
 32			PTR	loft.hw.esgob.com.
@@ -30,7 +31,8 @@ $ORIGIN 112.61.185.in-addr.arpa.
 42			PTR	airportlounge.hw.esgob.com.
 43			PTR	airportoffice.hw.esgob.com.
 44			PTR	airportspare.hw.esgob.com.
-
+45			PTR	youview1.hw.esgob.com.
+46			PTR	xbox.hw.esgob.com.
 
 
 

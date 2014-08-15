@@ -40,6 +40,7 @@ dash			IN	A		195.177.253.16
                         IN      AAAA            2001:67c:1b42:3::16
 
 printer1		IN	A		185.61.112.20
+sipgigaset1		IN	A		185.61.112.21
 
 claireair		IN	A		185.61.112.31
 loft			IN	A		185.61.112.32
@@ -51,10 +52,10 @@ airportlounge		IN	A		185.61.112.42
 airportoffice		IN	A		185.61.112.43
 airportspare		IN	A		185.61.112.44
 youview1		IN	A		185.61.112.45
+xbox			IN	A		185.61.112.46
 
 currentcost1		IN	A		195.177.253.21
 
-sipgigaset1		IN	A		195.177.253.26
 screen1			IN	A		195.177.253.28
 labsw1			IN	A		195.177.253.239
 			IN	AAAA		2001:67c:1b42::240
