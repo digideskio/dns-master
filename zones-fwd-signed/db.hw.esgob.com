@@ -47,7 +47,7 @@ loft			IN	A		185.61.112.32
 natair			IN	A		185.61.112.33
 natcb			IN	A		185.61.112.34
 
-airportkitchen		IN	A		186.61.112.41
+airportkitchen		IN	A		185.61.112.41
 airportlounge		IN	A		185.61.112.42
 airportoffice		IN	A		185.61.112.43
 airportspare		IN	A		185.61.112.44
