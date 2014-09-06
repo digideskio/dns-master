@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 151.19.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062801   ; serial
+				2014062802   ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -13,3 +13,4 @@ $TTL 3600	; 1 hour
 				NS	ns2.esgob.com.
 
 $ORIGIN 151.19.185.in-addr.arpa.
+254                       PTR     popty.esgob.com.

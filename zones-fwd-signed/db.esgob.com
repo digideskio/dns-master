@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
- 2014081502   ; serial     
+ 2014081601   ; serial     
 				43200      ; refresh (12 hours)
 				600        ; retry (10 minutes)
 				1209600    ; expire (2 weeks)
@@ -98,7 +98,8 @@ ntp			A	195.177.253.180
 oer			CNAME	oer.hex67
 parth			A	195.177.253.178
                         AAAA    2001:67c:1b40:178::178
-popty			A	195.177.253.249
+popty			A	185.19.151.254
+popty			AAAA	2001:67c:1b41::254
 poptyext		A	162.217.178.11
 puppet			CNAME	pyped
 pyped			A	195.177.253.174
