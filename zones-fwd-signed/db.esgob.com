@@ -37,6 +37,7 @@ clonc			AAAA    2001:67c:1b40:182::182
 cyri			A	103.12.211.30
 dinas			A	46.23.228.107
 eira			CNAME	eira.hex67
+enfys			A	194.1.151.251
 enw			A	195.177.253.166
 enw			AAAA	2001:67c:1b40:166::166
 ffatri			A	162.217.178.6
