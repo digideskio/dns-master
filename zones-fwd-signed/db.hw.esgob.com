@@ -41,6 +41,7 @@ dash			IN	A		195.177.253.16
 
 printer1		IN	A		185.61.112.20
 sipgigaset1		IN	A		185.61.112.21
+loftscreen1		IN	A		185.61.112.22
 
 claireair		IN	A		185.61.112.31
 loft			IN	A		185.61.112.32
@@ -56,7 +57,6 @@ xbox			IN	A		185.61.112.46
 
 currentcost1		IN	A		195.177.253.21
 
-screen1			IN	A		195.177.253.28
 labsw1			IN	A		195.177.253.239
 			IN	AAAA		2001:67c:1b42::240
 zen			IN	A		82.69.41.81

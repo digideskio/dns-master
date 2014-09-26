@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 112.61.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062808 ; serial
+				2014062809 ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -21,6 +21,7 @@ $ORIGIN 112.61.185.in-addr.arpa.
 
 20			PTR	printer1.hw.esgob.com.
 21			PTR	sipgigaset1.hw.esgob.com.
+22			PTR	loftscreen1.hw.esgob.com.
 
 31			PTR	claireair.hw.esgob.com.
 32			PTR	loft.hw.esgob.com.
