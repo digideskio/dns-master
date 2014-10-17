@@ -45,6 +45,7 @@ ffatri			A	162.217.178.6
 glaw			A	46.235.225.109
 graff			A	195.177.253.196
 haul			A	198.35.53.245
+halen			A	91.206.9.38
 $ORIGIN hex67.esgob.com.
 braf			A	77.75.104.163
 			AAAA	2a01:348:0:41::163
