@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 147.47.193.in-addr.arpa	IN SOA	ns0.esgob.co.uk nat.esgob.com (
- 2014102301   ; serial     
+ 2014102302   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -174,7 +174,7 @@ $ORIGIN 147.47.193.in-addr.arpa.
 161			PTR	anycast.esgob.com.
 162			PTR	anycast.esgob.com.
 163			PTR	anycast.esgob.com.
-164			PTR	anycast.esgob.com.
+164			PTR	b.kernnetz.net.
 165			PTR	anycast.esgob.com.
 166			PTR	anycast.esgob.com.
 167			PTR	anycast.esgob.com.

@@ -4,7 +4,7 @@ $ORIGIN .
 ;
 $TTL 1h	; Default TTL
 3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa	IN	SOA	ns0.esgob.co.uk.	nat.esgob.com. (
- 2014102301   ; serial     
+ 2014102302   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -21,3 +21,4 @@ $ORIGIN .
 0.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.       IN      PTR     ns2.esgob.com.
 4.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.8.0.0.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.	IN	PTR	ns1.1984hosting.com.
 3.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.1.0.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.	IN	PTR	ns2.coreinet.net.
+4.6.1.0.0.0.0.0.0.0.0.0.0.0.0.0.4.6.1.0.3.4.b.1.c.7.6.0.1.0.0.2.ip6.arpa.	IN	PTR	b.kernnetz.net.
