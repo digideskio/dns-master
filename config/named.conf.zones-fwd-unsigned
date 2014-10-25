@@ -77,3 +77,8 @@ zone "strumble.net" {
 	type master;
 	file "/etc/bind/dns-master/zones-fwd-unsigned/db.strumble.net";
 };
+
+zone "tasty.horse" {
+	type master;
+	file "/etc/bind/dns-master/zones-fwd-unsigned/db.tasty.horse";
+};
