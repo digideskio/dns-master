@@ -16,6 +16,8 @@ $ORIGIN edge.esgob.com.
 gwyn			IN	A		212.108.74.222
 melyn			IN	A		212.121.40.206
 ystad			IN	A		5.2.18.126
+oreo			IN	A		165.254.255.20
+oreo			IN	AAAA		2001:728:1808::20
 @			TXT	"oer.esgob.com"
 			TXT	"cyri.esgob.com"
 			TXT	"glaw.esgob.com"
