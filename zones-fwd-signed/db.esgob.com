@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
- 2014111001   ; serial     
+ 2014111002   ; serial     
 				43200      ; refresh (12 hours)
 				600        ; retry (10 minutes)
 				1209600    ; expire (2 weeks)
@@ -107,6 +107,8 @@ poptyext		A	162.217.178.11
 puppet			CNAME	pyped
 pyped			A	195.177.253.174
 			AAAA	2001:67c:1b40:174::174
+pysgod                  A       77.75.104.166
+pysogd-ipmi             A       77.75.105.113
 repo			CNAME	wyntog
 resolver1		A	195.177.252.200
 			AAAA	2001:67c:1b40::200
