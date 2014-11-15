@@ -108,7 +108,7 @@ puppet			CNAME	pyped
 pyped			A	195.177.253.174
 			AAAA	2001:67c:1b40:174::174
 pysgod                  A       77.75.104.166
-pysogd-ipmi             A       77.75.105.113
+pysgod-ipmi             A       77.75.105.113
 repo			CNAME	wyntog
 resolver1		A	195.177.252.200
 			AAAA	2001:67c:1b40::200
