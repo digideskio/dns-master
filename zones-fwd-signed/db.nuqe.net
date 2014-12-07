@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 nuqe.net	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2014112801   ; serial     
+ 2014120701   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
