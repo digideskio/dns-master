@@ -13,11 +13,23 @@ edge.esgob.com	        IN SOA  ns0.esgob.co.uk noc.esgob.com (
 
 $ORIGIN edge.esgob.com.
 
+bjork			IN	A		149.126.87.109
+matryo			IN	A		83.217.3.10
+matryo			IN	AAAA		2a00:d8c0::81
 gwyn			IN	A		212.108.74.222
 melyn			IN	A		212.121.40.206
 ystad			IN	A		5.2.18.126
+nwdls			IN	A		202.6.102.40
+nwdls			IN	AAAA		2001:dd8:25:7::8
 oreo			IN	A		165.254.255.20
 oreo			IN	AAAA		2001:728:1808::20
+sgwtr			IN	A		212.2.160.146
+sgwtr			IN	AAAA		2001:7c8:1000:4::2
+smorre			IN	A		130.225.245.30
+smorre			IN	AAAA		2001:878:0:E000:82:E1:F5:1E
+steep			IN	A		79.98.33.54
+steep			IN	AAAA		2a01:568:5000:146::a
+wiwer			IN	A		178.19.209.76
 puppet			IN	CNAME		puppet.esgob.com.
 @			TXT	"oer.esgob.com"
 			TXT	"cyri.esgob.com"
