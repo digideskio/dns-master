@@ -29,6 +29,7 @@ smorre			IN	A		130.225.245.30
 smorre			IN	AAAA		2001:878:0:E000:82:E1:F5:1E
 steep			IN	A		79.98.33.54
 steep			IN	AAAA		2a01:568:5000:146::a
+tatws			IN	A		213.189.37.86
 wiwer			IN	A		178.19.209.76
 puppet			IN	CNAME		puppet.esgob.com.
 @			TXT	"oer.esgob.com"
