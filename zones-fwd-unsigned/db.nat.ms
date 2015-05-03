@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 nat.ms			IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
- 2014041901   ; serial     
+ 2014041902   ; serial     
 				43200      ; refresh (12 hours)
 				600        ; retry (10 minutes)
 				1209600    ; expire (2 weeks)
@@ -25,3 +25,4 @@ $TTL 3600	; 1 hour
 tegft2ebc3c7		CNAME	gv-25cnhm47octh3t.dv.googlehosted.com.
 www                     A       195.177.253.195
 www                     AAAA    2001:67c:1b40:195::195
+test			A	195.177.253.131
