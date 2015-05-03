@@ -101,6 +101,7 @@ ntp			A	195.177.253.180
 oer			CNAME	oer.hex67
 parth			A	195.177.253.178
                         AAAA    2001:67c:1b40:178::178
+plump			A	178.62.134.151
 popty			A	185.19.151.254
 popty			AAAA	2001:67c:1b41::254
 poptyext		A	162.217.178.11
