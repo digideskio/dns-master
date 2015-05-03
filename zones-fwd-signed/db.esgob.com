@@ -60,6 +60,8 @@ goscomb-gw		A	77.75.104.161
 			AAAA	2a01:348:0:41::1
 oer			A	77.75.104.164
 			AAAA	2a01:348:0:41::164
+resolver1		A	195.177.253.133	
+resolver2		A	195.177.253.135	
 $ORIGIN esgob.com.
 edge			NS	ns0.esgob.co.uk.
 			NS	ns1
@@ -119,6 +121,7 @@ ringnode1		A	195.177.253.162
 ringnode1			AAAA	2001:67c:1b40:162::162
 sanau			A	208.118.234.182
 selsig			A	46.19.88.206
+squash			A	195.177.253.131
 test			NS	ns0.esgob.co.uk.
 			NS	ns1
 			NS	ns2
