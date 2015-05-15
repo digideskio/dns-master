@@ -17,7 +17,7 @@ esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
 			MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 			MX	30 ASPMX2.GOOGLEMAIL.COM.
 			MX	30 ASPMX3.GOOGLEMAIL.COM.
-			TXT	"v=spf1" "include:aspmx.googlemail.com" "~all"
+			TXT	"v=spf1 include:_spf.google.com ~all"
 			TXT	"google-site-verification=Q4CfZ2aCpzEpDWSid9U7seGZEuRLwR62WJIxGdOY1lY"
 			TXT	"keybase-site-verification=juzl6B2ndSXiDPlVssKopi_blr5JF3fkFHvg0Q-OjiE"
 
