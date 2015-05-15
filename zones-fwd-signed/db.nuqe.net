@@ -42,7 +42,7 @@ _xmpp-client._tcp IN SRV 20 0 5222 alt4.xmpp.l.google.com.
 			IN	TXT	"v=spf1" "include:aspmx.googlemail.com" "~all"	
 
 google._domainkey	IN	TXT	"v=DKIM1;" "k=rsa;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbW7imREOL+n3zEHJCjr4nquSpx6ExvS7hWliMxYdHuQ/mZpMAE9eufeTMj7cz96SQOYhKoNoSkN/890H+W2hVeudnKxF8Zu27p3/WPpMjQP+S3ieB1af6OwDMjlykSh0yugxpnjxUOqDh0jf3n/Yp0+uHhQR1uWrdSVcqr5PBlwIDAQAB"
-_dmarc                  TXT     "v=DMARC1; p=quarantine; pct=5; rua=mailto:noc@esgob.com"
+_dmarc                  TXT     "v=DMARC1; p=quarantine; pct=5; rua=mailto:nat@nuqe.net"
 calendar		IN	CNAME		ghs.google.com.
 docs			IN	CNAME		ghs.google.com.
 mail			IN	CNAME		ghs.google.com.
