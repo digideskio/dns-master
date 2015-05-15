@@ -24,6 +24,7 @@ esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
 $ORIGIN esgob.com.
 $TTL 3600	; 1 hour
 google._domainkey	TXT	"v=DKIM1\;" "k=rsa\;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFdjYXxH2t45e1pmmdnmfgIhgPzibMlWBvgBT4vRdmIk1U6Wk5Sl2X68VS6i2+7LpEojfLy4D2UD8uzHVUgz/9vOr3+OxtB/lJKx6TohBbxAUyDWes0pN6E/4XXcv9YgsiXV+J5kmhxT2Pw2mr1KKP6x8o/gxiw1SeWDN+Ge2qNwIDAQAB"
+_dmarc                  TXT     "v=DMARC1; p=quarantine; pct=5; rua=mailto:noc@esgob.com"
 alban			A	46.226.2.182
 ia			A	93.95.228.63
 api			A	195.177.253.192
