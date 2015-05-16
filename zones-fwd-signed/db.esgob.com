@@ -110,7 +110,6 @@ popty			AAAA	2001:67c:1b41::254
 poptyext		A	162.217.178.11
 puppet			A	195.177.253.174
 pyped			A	195.177.253.174
-			AAAA	2001:67c:1b40:174::174
 pysgod                  A       77.75.104.166
 pysgod-ipmi             A       77.75.105.113
 repo			CNAME	wyntog
