@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 edge.esgob.com          IN SOA  ns0.esgob.co.uk noc.esgob.com (
- 2015051703   ; serial     
+ 2015051702   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -47,12 +47,12 @@ nwdls		IN	A		202.6.102.40
 nwdls.v4	IN	A		202.6.102.40
 ugg		IN	A		103.18.205.244
 ugg.v4	IN	A		103.18.205.244
-oreo		IN	A		165.254.255.20
-oreo.v4	IN	A		165.254.255.20
 ystad		IN	A		5.2.18.126
 ystad.v4	IN	A		5.2.18.126
 tatws		IN	A		213.189.37.86
 tatws.v4	IN	A		213.189.37.86
+oreo		IN	A		165.254.255.20
+oreo.v4	IN	A		165.254.255.20
 smorre		IN	A		130.225.245.30
 smorre.v4	IN	A		130.225.245.30
 sgwtr		IN	A		212.2.160.146
@@ -81,9 +81,9 @@ puppet                  IN      CNAME           puppet.esgob.com.
 			TXT	"halen.edge.esgob.com"
 			TXT	"nwdls.edge.esgob.com"
 			TXT	"ugg.edge.esgob.com"
-			TXT	"oreo.edge.esgob.com"
 			TXT	"ystad.edge.esgob.com"
 			TXT	"tatws.edge.esgob.com"
+			TXT	"oreo.edge.esgob.com"
 			TXT	"smorre.edge.esgob.com"
 			TXT	"sgwtr.edge.esgob.com"
 			TXT	"bjork.edge.esgob.com"
