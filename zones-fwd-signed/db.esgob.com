@@ -24,7 +24,6 @@ esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
 $ORIGIN esgob.com.
 $TTL 3600	; 1 hour
 google._domainkey	TXT	"v=DKIM1\;" "k=rsa\;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFdjYXxH2t45e1pmmdnmfgIhgPzibMlWBvgBT4vRdmIk1U6Wk5Sl2X68VS6i2+7LpEojfLy4D2UD8uzHVUgz/9vOr3+OxtB/lJKx6TohBbxAUyDWes0pN6E/4XXcv9YgsiXV+J5kmhxT2Pw2mr1KKP6x8o/gxiw1SeWDN+Ge2qNwIDAQAB"
-_dmarc                  TXT     "v=DMARC1; p=quarantine; pct=5; rua=mailto:noc@esgob.com"
 alban			A	46.226.2.182
 ia			A	93.95.228.63
 api			A	195.177.253.192
@@ -85,15 +84,6 @@ mgmt			NS	ns0.esgob.co.uk.
 			IN	DS 48829 5 1 19F9551AC58BF35C7E8732FCE2276C573A818392
 noc			A	195.177.253.193
 			AAAA	2001:67c:1b40:193::193
-nodes			TXT	"oer"
-			TXT	"cyri"
-			TXT	"glaw"
-			TXT	"haul"
-			TXT	"alban"
-			TXT	"dinas"
-			TXT	"sanau"
-			TXT	"ffatri"
-			TXT	"selsig"
 ns0			A	195.177.253.166
 			AAAA	2001:67c:1b40:166::166
 ns1			A	193.47.147.100
@@ -104,7 +94,6 @@ ntp			A	195.177.253.180
 oer			CNAME	oer.hex67
 parth			A	195.177.253.178
                         AAAA    2001:67c:1b40:178::178
-plump			A	178.62.134.151
 popty			A	185.19.151.254
 popty			AAAA	2001:67c:1b41::254
 poptyext		A	162.217.178.11
@@ -130,9 +119,6 @@ www			A	195.177.253.194
 			AAAA	2001:67c:1b40:194::194
 wyntog			A	195.177.253.146
 			AAAA	2001:67c:1b40:146::146
-oob.cv			A	46.17.215.203
 ystad			A	5.2.18.126
 ugg			A	103.18.205.244
-puppet.r10k             A       46.101.42.161
-client1.r10k            A	46.101.47.82
 tubby			A	95.85.54.93
