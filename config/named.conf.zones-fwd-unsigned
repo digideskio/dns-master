@@ -87,3 +87,13 @@ zone "tasty.horse" {
 	type master;
 	file "/etc/bind/dns-master/zones-fwd-unsigned/db.tasty.horse";
 };
+
+zone "natm.is" {
+	type master;
+	file "/etc/bind/dns-master/zones-fwd-unsigned/db.natm.is";
+};
+
+zone "anycast.is" {
+	type master;
+	file "/etc/bind/dns-master/zones-fwd-unsigned/db.anycast.is";
+};
