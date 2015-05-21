@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 253.177.195.in-addr.arpa	IN SOA	ns0.esgob.co.uk nat.esgob.com (
- 2015052101   ; serial     
+ 2015052102   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -179,7 +179,7 @@ $ORIGIN 253.177.195.in-addr.arpa.
 163			PTR	unassigned.esgob.com.
 164			PTR	unassigned.esgob.com.
 165			PTR	unassigned.esgob.com.
-166			PTR	enw.esgob.com.
+166			PTR	ns0.esgob.co.uk.
 167			PTR	unassigned.esgob.com.
 168			PTR	unassigned.esgob.com.
 169			PTR	unassigned.esgob.com.
@@ -202,8 +202,8 @@ $ORIGIN 253.177.195.in-addr.arpa.
 186			PTR	ns0-hex.uk.as47312.net.
 187			PTR	unassigned.esgob.com.
 188			PTR	unassigned.esgob.com.
-189			PTR	csg-tunnel-gw.esgob.com.
-190			PTR	csg-temp-vm.esgob.com.
+189			PTR	unassigned.esgob.com.
+190			PTR	unassigned.esgob.com.
 191			PTR	unassigned.esgob.com.
 192			PTR	api.esgob.com.
 193			PTR	noc.esgob.com.
