@@ -60,8 +60,8 @@ goscomb-gw		A	77.75.104.161
 			AAAA	2a01:348:0:41::1
 oer			A	77.75.104.164
 			AAAA	2a01:348:0:41::164
-resolver1		A	195.177.253.133	
-resolver2		A	195.177.253.135	
+hex-resolver1		A	195.177.253.133
+hex-resolver2		A	195.177.253.135
 $ORIGIN esgob.com.
 edge			NS	ns0.esgob.co.uk.
 			NS	ns1
@@ -122,3 +122,7 @@ wyntog			A	195.177.253.146
 ystad			A	5.2.18.126
 ugg			A	103.18.205.244
 tubby			A	95.85.54.93
+auth1			A	195.177.253.127
+axfr1			A	195.177.253.129
+bgptable1		A	195.177.253.125
+bgptable		A	195.177.253.240
