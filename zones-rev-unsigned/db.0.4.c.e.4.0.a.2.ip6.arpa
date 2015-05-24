@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 0.4.c.e.4.0.a.2.ip6.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062801   ; serial
+				2015052401 ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -13,3 +13,11 @@ $TTL 3600	; 1 hour
 				NS	ns2.esgob.com.
 
 $ORIGIN 0.4.c.e.4.0.a.2.ip6.arpa.
+
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      a.ns.anuragbhatia.com.
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      b.ns.anuragbhatia.com.
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      c.ns.anuragbhatia.com.
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      a.ns.anuragbhatia.com.
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      d.ns.anuragbhatia.com.
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      e.ns.anuragbhatia.com.
+1.0.e.0.4.c.e.4.0.a.2.ip6.arpa. NS      f.ns.anuragbhatia.com.
