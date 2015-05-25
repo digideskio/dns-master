@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 150.19.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062801   ; serial
+				2015052401 ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -13,3 +13,58 @@ $TTL 3600	; 1 hour
 				NS	ns2.esgob.com.
 
 $ORIGIN 150.19.185.in-addr.arpa.
+
+; 185.19.150.192/26 - llain-yr-esgob
+
+192				PTR	network.llain.yr.esgob.com.
+193				PTR	rtr.llain.yr.esgob.com.
+194				PTR	ap1.llain.yr.esgob.com.
+195				PTR	ap2.llain.yr.esgob.com.
+196				PTR	ap3.llain.yr.esgob.com.
+198				PTR	cctv.llain.yr.esgob.com.
+210                             PTR     dhcp-210.llain.yr.esgob.com.
+211                             PTR     dhcp-211.llain.yr.esgob.com.
+212                             PTR     dhcp-212.llain.yr.esgob.com.
+213                             PTR     dhcp-213.llain.yr.esgob.com.
+214                             PTR     dhcp-214.llain.yr.esgob.com.
+215                             PTR     dhcp-215.llain.yr.esgob.com.
+216                             PTR     dhcp-216.llain.yr.esgob.com.
+217                             PTR     dhcp-217.llain.yr.esgob.com.
+218                             PTR     dhcp-218.llain.yr.esgob.com.
+219                             PTR     dhcp-219.llain.yr.esgob.com.
+220                             PTR     dhcp-220.llain.yr.esgob.com.
+221                             PTR     dhcp-221.llain.yr.esgob.com.
+222                             PTR     dhcp-222.llain.yr.esgob.com.
+223                             PTR     dhcp-223.llain.yr.esgob.com.
+224                             PTR     dhcp-224.llain.yr.esgob.com.
+225                             PTR     dhcp-225.llain.yr.esgob.com.
+226                             PTR     dhcp-226.llain.yr.esgob.com.
+227                             PTR     dhcp-227.llain.yr.esgob.com.
+228                             PTR     dhcp-228.llain.yr.esgob.com.
+229                             PTR     dhcp-229.llain.yr.esgob.com.
+230                             PTR     dhcp-230.llain.yr.esgob.com.
+231                             PTR     dhcp-231.llain.yr.esgob.com.
+232                             PTR     dhcp-232.llain.yr.esgob.com.
+233                             PTR     dhcp-233.llain.yr.esgob.com.
+234                             PTR     dhcp-234.llain.yr.esgob.com.
+235                             PTR     dhcp-235.llain.yr.esgob.com.
+236                             PTR     dhcp-236.llain.yr.esgob.com.
+237                             PTR     dhcp-237.llain.yr.esgob.com.
+238                             PTR     dhcp-238.llain.yr.esgob.com.
+239                             PTR     dhcp-239.llain.yr.esgob.com.
+240                             PTR     dhcp-240.llain.yr.esgob.com.
+241                             PTR     dhcp-241.llain.yr.esgob.com.
+242                             PTR     dhcp-242.llain.yr.esgob.com.
+243                             PTR     dhcp-243.llain.yr.esgob.com.
+244                             PTR     dhcp-244.llain.yr.esgob.com.
+245                             PTR     dhcp-245.llain.yr.esgob.com.
+246                             PTR     dhcp-246.llain.yr.esgob.com.
+247                             PTR     dhcp-247.llain.yr.esgob.com.
+248                             PTR     dhcp-248.llain.yr.esgob.com.
+249                             PTR     dhcp-249.llain.yr.esgob.com.
+250                             PTR     dhcp-250.llain.yr.esgob.com.
+251                             PTR     dhcp-251.llain.yr.esgob.com.
+252                             PTR     dhcp-252.llain.yr.esgob.com.
+253                             PTR     dhcp-253.llain.yr.esgob.com.
+254                             PTR     dhcp-254.llain.yr.esgob.com.
+255				PTR	broadcast.llain.yr.esgob.com.

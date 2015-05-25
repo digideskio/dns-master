@@ -73,6 +73,7 @@ hw			NS	ns0.esgob.co.uk.
 			IN 	DS 50461 5 1 B03727BB60778C8EA15B320CBFF3C6FB40E45D68
 lax			A	204.42.253.254
 llain.yr		A	90.155.92.169
+network.llain.yr	A	185.19.150.192
 rtr.llain.yr		A	185.19.150.193
 ap1.llain.yr		A	185.19.150.194
 ap2.llain.yr		A	185.19.150.195
@@ -123,6 +124,7 @@ dhcp-251.llain.yr       A       185.19.150.251
 dhcp-252.llain.yr       A       185.19.150.252
 dhcp-253.llain.yr       A       185.19.150.253
 dhcp-254.llain.yr	A	185.19.150.254
+broadcast.llain.yr	A	185.19.150.255
 local			A	193.47.147.1
 local4			A	193.47.147.1
 local6			AAAA	2001:67c:1b43::1
