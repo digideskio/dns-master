@@ -13,6 +13,7 @@ hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
 
 $ORIGIN hw.esgob.com.
 
+cctv			IN	A		185.61.112.54
 cartref			IN	A		195.177.253.241
 			IN	AAAA		2001:67c:1b42::241
 vrrp-9			IN	A		195.177.253.1
