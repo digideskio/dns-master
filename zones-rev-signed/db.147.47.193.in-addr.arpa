@@ -166,7 +166,7 @@ $ORIGIN 147.47.193.in-addr.arpa.
 153			PTR	ns2.coreinet.net.
 154			PTR	ns4.ichilton.net.
 155			PTR	ns0.fido.uk.
-156			PTR	anycast.esgob.com.
+156			PTR	ns6.managedns.net.
 157			PTR	anycast.esgob.com.
 158			PTR	anycast.esgob.com.
 159			PTR	anycast.esgob.com.
