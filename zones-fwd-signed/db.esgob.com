@@ -72,7 +72,7 @@ hw			NS	ns0.esgob.co.uk.
 			NS	ns2
 			IN 	DS 50461 5 1 B03727BB60778C8EA15B320CBFF3C6FB40E45D68
 lax			A	204.42.253.254
-llain.yr		A	90.155.92.169
+llain.yr		A	185.19.150.65
 network.llain.yr	A	185.19.150.192
 rtr.llain.yr		A	185.19.150.193
 ap1.llain.yr		A	185.19.150.194
