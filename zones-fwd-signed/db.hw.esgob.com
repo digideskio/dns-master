@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2015061611   ; serial     
+ 2015061612   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -44,6 +44,8 @@ dash			IN	A		195.177.253.16
 printer1		IN	A		185.61.112.20
 sipgigaset1		IN	A		185.61.112.21
 loftscreen1		IN	A		185.61.112.22
+natnf			IN	A		185.61.112.23
+chromebox		IN	A		185.61.112.24
 
 claireair		IN	A		185.61.112.31
 loft			IN	A		185.61.112.32
