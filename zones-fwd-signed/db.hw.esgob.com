@@ -46,6 +46,7 @@ sipgigaset1		IN	A		185.61.112.21
 loftscreen1		IN	A		185.61.112.22
 natnf			IN	A		185.61.112.23
 chromebox		IN	A		185.61.112.24
+nfmini			IN	A		185.61.112.25
 
 claireair		IN	A		185.61.112.31
 loft			IN	A		185.61.112.32
