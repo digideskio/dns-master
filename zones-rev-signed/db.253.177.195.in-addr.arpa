@@ -136,7 +136,7 @@ $ORIGIN 253.177.195.in-addr.arpa.
 120			PTR	unassigned.esgob.com.
 121			PTR	unassigned.esgob.com.
 122			PTR	unassigned.esgob.com.
-123			PTR	unassigned.esgob.com.
+123			PTR     autotest1.esgob.com.
 124			PTR	unassigned.esgob.com.
 125			PTR	bgptable1.esgob.com.
 126			PTR	unassigned.esgob.com.
