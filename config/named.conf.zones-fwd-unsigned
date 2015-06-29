@@ -3,6 +3,11 @@ zone "esgob.net" {
         file "/etc/bind/dns-master/zones-fwd-unsigned/db.esgob.net";
 };
 
+zone "tests.esgob.net" {
+        type master;
+        file "/etc/bind/dns-master/zones-fwd-unsigned/db.tests.esgob.net";
+};
+
 zone "greenfolds.co.uk" {
         type master;
         file "/etc/bind/dns-master/zones-fwd-unsigned/db.greenfolds.co.uk";

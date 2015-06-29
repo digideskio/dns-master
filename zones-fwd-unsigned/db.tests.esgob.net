@@ -1,0 +1,16 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+tests.esgob.net		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
+ 2014062202   ; serial     
+				43200      ; refresh (12 hours)
+				600        ; retry (10 minutes)
+				1209600    ; expire (2 weeks)
+				3600       ; minimum (1 hour)
+				)
+			NS	ns0.esgob.co.uk.
+			NS	ns1.esgob.com.
+
+$ORIGIN tests.esgob.net.
+$TTL 3600	; 1 hour
+hourly			NS	autotest-ns0.esgob.com.
+			NS	ns1.esgob.com.
