@@ -29,6 +29,7 @@ ia			A	93.95.228.63
 api			A	195.177.253.192
 			AAAA	2001:67c:1b40:192::192
 autotest1		A	195.177.253.123
+autotest-ns0		A	195.177.253.123
 axfr			A	195.177.253.142
 			AAAA	2001:67c:1b40:142::142
 braf			CNAME	braf.hex67
