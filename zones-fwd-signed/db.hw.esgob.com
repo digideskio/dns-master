@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2015082822   ; serial     
+ 2015083120   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -47,18 +47,36 @@ loftscreen1		IN	A		185.61.112.22
 natnf			IN	A		185.61.112.23
 chromebox		IN	A		185.61.112.24
 mininf			IN	A		185.61.112.25
-
+amp			IN	A		185.61.112.29
+alertmehub		IN	A		185.61.112.30
 claireair		IN	A		185.61.112.31
 loft			IN	A		185.61.112.32
 natair			IN	A		185.61.112.33
 natcb			IN	A		185.61.112.34
-
+nats6			IN	A		185.61.112.35
+appletvlounge		IN	A		185.61.112.40
 airportkitchen		IN	A		185.61.112.41
 airportlounge		IN	A		185.61.112.42
 airportoffice		IN	A		185.61.112.43
 airportspare		IN	A		185.61.112.44
 youview1		IN	A		185.61.112.45
 xbox			IN	A		185.61.112.46
+dhcp47			IN	A		185.61.112.47
+dhcp48			IN	A		185.61.112.48
+dhcp49			IN	A		185.61.112.49
+dhcp50			IN	A		185.61.112.50
+dhcp51			IN	A		185.61.112.51
+dhcp52			IN	A		185.61.112.52
+dhcp53			IN	A		185.61.112.53
+dhcp54			IN	A		185.61.112.54
+dhcp55			IN	A		185.61.112.55
+dhcp56			IN	A		185.61.112.56
+dhcp57			IN	A		185.61.112.57
+dhcp58			IN	A		185.61.112.58
+dhcp59			IN	A		185.61.112.59
+dhcp60			IN	A		185.61.112.60
+dhcp61			IN	A		185.61.112.61
+dhcp62			IN	A		185.61.112.62
 
 currentcost1		IN	A		195.177.253.21
 
