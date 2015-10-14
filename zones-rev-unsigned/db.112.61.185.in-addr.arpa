@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 112.61.185.in-addr.arpa	IN SOA	ns0.esgob.co.uk. noc.esgob.com. (
-				2014062813 ; serial
+				2014062814 ; serial
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -15,51 +15,21 @@ $TTL 3600	; 1 hour
 $ORIGIN 112.61.185.in-addr.arpa.
 
 ; 185.61.112.0/26
-1			PTR	vrrp-8.hw.esgob.com.
-2			PTR	eth1-8.spot.hw.esgob.com.
-3			PTR	eth1-8.stripe.hw.esgob.com.
-
-20			PTR	printer1.hw.esgob.com.
-21			PTR	sipgigaset1.hw.esgob.com.
-22			PTR	loftscreen1.hw.esgob.com.
-23			PTR	natnf.hw.esgob.com.
-24			PTR	chromebox.hw.esgob.com.
-25			PTR	mininf.hw.esgob.com.
-
-31			PTR	claireair.hw.esgob.com.
-32			PTR	loft.hw.esgob.com.
-33			PTR	natair.hw.esgob.com.
-34			PTR	natcb.hw.esgob.com.
-
-41			PTR	airportkitchen.hw.esgob.com.
-42			PTR	airportlounge.hw.esgob.com.
-43			PTR	airportoffice.hw.esgob.com.
-44			PTR	airportspare.hw.esgob.com.
-45			PTR	youview1.hw.esgob.com.
-46			PTR	xbox.hw.esgob.com.
-
-
-
+1			PTR	vlan8.homesw2.hw.esgob.com.
 
 ; 185.61.112.64/28
-64			PTR	spot.hw.esgob.com.
-65			PTR	stripe.hw.esgob.com.
-66			PTR	resolver1.hw.esgob.com.
-67			PTR	resolver2.hw.esgob.com.
+64			PTR	home1.hw.esgob.com.
+65			PTR	homesw2.hw.esgob.com.
 
 ; 185.61.112.80/30
-81			PTR	eth0.spot.hw.esgob.com.
-82			PTR	eth0.stripe.hw.esgob.com.
+81			PTR	eth2.home1.hw.esgob.com.
+82			PTR	gi-1-0-1.homesw2.hw.esgob.com.
 
 ; 185.61.112.96/28
-97			PTR	vrrp-10.hw.esgob.com.
-98			PTR	eth1-10.spot.hw.esgob.com.
-99			PTR	eth1-10.stripe.hw.esgob.com.
+97			PTR	vlan10.homesw2.hw.esgob.com.
 
 ; 185.61.112.128/28
-129			PTR	vrrp-7.hw.esgob.com.
-130			PTR	eth1-7.spot.hw.esgob.com.
-131			PTR	eth1-7.stripe.hw.esgob.com.
+129			PTR	vlan7.homesw2.hw.esgob.com.
 132			PTR	hpsw1.hw.esgob.com.
 133			PTR	ap1.hw.esgob.com.
 134			PTR	ap2.hw.esgob.com.

@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2015101411   ; serial     
+ 2015101415   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -17,50 +17,34 @@ aaisp			IN	A		185.19.150.64
 cctv			IN	A		185.61.112.54
 cartref			IN	A		195.177.253.241
 			IN	AAAA		2001:67c:1b42::241
-vrrp-9			IN	A		195.177.253.1
-homenas1		IN	A		195.177.253.2
-eth1-9.spot		IN	A		195.177.253.7
-eth1-9.stripe		IN	A		195.177.253.8
-eth0.cartref		IN	A		195.177.253.65
-eth1.ty1		IN	A		195.177.253.67
-eth1.ty2		IN	A		195.177.253.68
 
-vl19.labsw1		IN	A		195.177.253.70
-console1		IN	A		195.177.253.131
-labmox1			IN	A		195.177.253.132
-console2		IN	A		195.177.253.133
-
-hpsw1			IN	A		185.61.112.132
-
-outsidecam1		IN	A		195.177.253.10	
-axiscam1		IN	A		195.177.253.11
-huntcam1		IN	A		195.177.253.12
-streamer		IN	A		195.177.253.13
-feedernanode		IN	A		195.177.253.14
-atlasesgob1		IN	A		195.177.253.15
-dash			IN	A		195.177.253.16	
-                        IN      AAAA            2001:67c:1b42:3::16
-
+loft			IN	A		185.61.112.5
+mininf			IN	A		185.61.112.6
+chromebox		IN	A		185.61.112.7
+claireair		IN	A		185.61.112.8
+natnf			IN	A		185.61.112.9
+nats6			IN	A		185.61.112.10
+youview1		IN	A		185.61.112.15
+cctv			IN	A		185.61.112.16
+alertmehub		IN	A		185.61.112.17
+amp			IN	A		185.61.112.18
 printer1		IN	A		185.61.112.20
 sipgigaset1		IN	A		185.61.112.21
-loftscreen1		IN	A		185.61.112.22
-natnf			IN	A		185.61.112.23
-chromebox		IN	A		185.61.112.24
-mininf			IN	A		185.61.112.25
-amp			IN	A		185.61.112.29
-alertmehub		IN	A		185.61.112.30
-claireair		IN	A		185.61.112.31
-loft			IN	A		185.61.112.32
-natair			IN	A		185.61.112.33
-natcb			IN	A		185.61.112.34
-nats6			IN	A		185.61.112.35
-appletvlounge		IN	A		185.61.112.40
-airportkitchen		IN	A		185.61.112.41
-airportlounge		IN	A		185.61.112.42
-airportoffice		IN	A		185.61.112.43
-airportspare		IN	A		185.61.112.44
-youview1		IN	A		185.61.112.45
-xbox			IN	A		185.61.112.46
+airportkitchen		IN	A		185.61.112.26
+airportlounge		IN	A		185.61.112.27
+airportoffice		IN	A		185.61.112.28
+airportspare		IN	A		185.61.112.29
+dhcp36			IN	A		185.61.112.36
+dhcp37			IN	A		185.61.112.37
+dhcp38			IN	A		185.61.112.38
+dhcp39			IN	A		185.61.112.39
+dhcp40			IN	A		185.61.112.40
+dhcp41			IN	A		185.61.112.41
+dhcp42			IN	A		185.61.112.42
+dhcp43			IN	A		185.61.112.43
+dhcp44			IN	A		185.61.112.44
+dhcp45			IN	A		185.61.112.45
+dhcp46			IN	A		185.61.112.46
 dhcp47			IN	A		185.61.112.47
 dhcp48			IN	A		185.61.112.48
 dhcp49			IN	A		185.61.112.49
