@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
- 2015101416   ; serial     
+ 2015102414   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
@@ -13,6 +13,8 @@ hw.esgob.com	        IN SOA  ns0.esgob.co.uk nat.esgob.com (
 
 $ORIGIN hw.esgob.com.
 
+CISCO-CAPWAP-CONTROLLER	IN	A		185.61.112.94
+homewlc1		IN	A		185.61.112.94
 aaisp			IN	A		185.19.150.64
 cctv			IN	A		185.61.112.54
 cartref			IN	A		195.177.253.241
