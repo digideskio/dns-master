@@ -246,7 +246,7 @@ $ORIGIN 253.177.195.in-addr.arpa.
 230			PTR     kiskers.bunny.sh.
 231			PTR	unassigned.esgob.com.
 233			PTR	unassigned.esgob.com.
-234			PTR	unassigned.esgob.com.
+234			PTR	eth0.vmgw1.esgob.com.
 235			PTR	unassigned.esgob.com.
 236			PTR	unassigned.esgob.com.
 237			PTR	unassigned.esgob.com.
@@ -260,7 +260,7 @@ $ORIGIN 253.177.195.in-addr.arpa.
 245			PTR	unassigned.esgob.com.
 246			PTR	unassigned.esgob.com.
 247			PTR	unassigned.esgob.com.
-248			PTR	unassigned.esgob.com.
+248			PTR	vmgw1.esgob.com.
 249			PTR	unassigned.esgob.com.
 250			PTR	unassigned.esgob.com.
 251			PTR	unassigned.esgob.com.
