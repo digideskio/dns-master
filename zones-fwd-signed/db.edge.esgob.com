@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600       ; 1 hour
 edge.esgob.com          IN SOA  ns0.esgob.co.uk noc.esgob.com (
- 2015111903   ; serial     
+ 2015111904   ; serial     
                                 43200      ; refresh (12 hours)
                                 600        ; retry (10 minutes)
                                 1209600    ; expire (2 weeks)
