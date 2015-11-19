@@ -27,7 +27,6 @@ updatezone ()
 updatezone "esgob.com" "fwd"
 updatezone "test.esgob.com" "fwd"
 updatezone "mgmt.esgob.com" "fwd"
-updatezone "hw.esgob.com" "fwd"
 updatezone "edge.esgob.com" "fwd"
 updatezone "nuqe.net" "fwd"
 updatezone "natmorris.co.uk" "fwd"

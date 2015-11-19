@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
- 2015102414   ; serial     
+ 2015111915   ; serial     
 				43200      ; refresh (12 hours)
 				600        ; retry (10 minutes)
 				1209600    ; expire (2 weeks)
@@ -33,7 +33,6 @@ autotest-ns0		A	195.177.253.123
 axfr			A	195.177.253.142
 			AAAA	2001:67c:1b40:142::142
 braf			CNAME	braf.hex67
-cartref			CNAME	cartref.hw
 canol			A	91.240.224.54
 clonc			A	195.177.253.182
 clonc			AAAA    2001:67c:1b40:182::182
@@ -69,10 +68,11 @@ edge			NS	ns0.esgob.co.uk.
 			NS	ns1
 			NS	ns2
 			IN	DS 8371 5 1 FC519B15BF79CF6453A07382A1A9B7C0B9FF4840
-hw			NS	ns0.esgob.co.uk.
-			NS	ns1
-			NS	ns2
-			IN 	DS 50461 5 1 B03727BB60778C8EA15B320CBFF3C6FB40E45D68
+hw			NS	homesvc1.hw.esgob.com.
+			NS	ns0.esgob.co.uk.
+			NS	ns1.esgob.com.
+			NS	ns2.esgob.com.
+homesvc1.hw		A	185.61.112.98
 lax			A	204.42.253.254
 llain.yr		A	185.19.150.65
 network.llain.yr	A	185.19.150.192

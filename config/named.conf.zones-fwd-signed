@@ -8,11 +8,6 @@ zone "esgob.co.uk" {
         file "/etc/bind/dns-master/zones-fwd-signed/db.esgob.co.uk.signed";
 };
 
-zone "hw.esgob.com" {
-        type master;
-        file "/etc/bind/dns-master/zones-fwd-signed/db.hw.esgob.com.signed";
-};
-
 zone "edge.esgob.com" {
         type master;
         file "/etc/bind/dns-master/zones-fwd-signed/db.edge.esgob.com.signed";

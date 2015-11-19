@@ -89,18 +89,6 @@ zone "7.4.c.e.4.0.a.2.ip6.arpa" {
 
 // strumble head ltd - RIPE PA
 
-zone "112.61.185.in-addr.arpa" {
-	// 185.61.112.0/24
-	type master;
-	file "/etc/bind/dns-master/zones-rev-unsigned/db.112.61.185.in-addr.arpa";
-};
-
-zone "113.61.185.in-addr.arpa" {
-	// 185.61.113.0/24
-	type master;
-	file "/etc/bind/dns-master/zones-rev-unsigned/db.113.61.185.in-addr.arpa";
-};
-
 zone "114.61.185.in-addr.arpa" {
 	// 185.61.114.0/24
 	type master;

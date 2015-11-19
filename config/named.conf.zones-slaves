@@ -1,0 +1,18 @@
+zone "hw.esgob.com" {
+    type slave;
+    notify explicit;
+    file "/etc/bind/dns-master/zones-slaves/db.hw.esgob.com";
+    masters { 185.61.112.98; };
+};
+zone "112.61.185.in-addr.arpa" {
+    type slave;
+    notify explicit;
+    file "/etc/bind/dns-master/zones-slaves/db.112.61.185.in-addr.arpa";
+    masters { 185.61.112.98; };
+};
+zone "113.61.185.in-addr.arpa" {
+    type slave;
+    notify explicit;
+    file "/etc/bind/dns-master/zones-slaves/db.113.61.185.in-addr.arpa";
+    masters { 185.61.112.98; };
+};
