@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
- 2015111918   ; serial     
+ 2015120820   ; serial     
 				43200      ; refresh (12 hours)
 				600        ; retry (10 minutes)
 				1209600    ; expire (2 weeks)
@@ -164,6 +164,7 @@ ringnode1		A	195.177.253.162
 ringnode1			AAAA	2001:67c:1b40:162::162
 sanau			A	208.118.234.182
 selsig			A	46.19.88.206
+sip1			A	195.177.253.113
 squash			A	195.177.253.131
 test			NS	ns0.esgob.co.uk.
 			NS	ns1
