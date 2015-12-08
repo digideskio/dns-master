@@ -15,22 +15,25 @@ $TTL 3600	; 1 hour
 $ORIGIN 112.61.185.in-addr.arpa.
 
 ; 185.61.112.0/26
-1			PTR	vlan8.homesw2.hw.esgob.com.
+1			PTR	vlan8.sw1.gorras.hw.esgob.com.
 
-; 185.61.112.64/28
-64			PTR	home1.hw.esgob.com.
-65			PTR	homesw2.hw.esgob.com.
+64			PTR	rt1.fishguard.hw.esgob.com.
+65			PTR	sw1.gorras.hw.esgob.com.
+66			PTR	sw2.gorras.hw.esgob.com.
+67			PTR	sw3.gorras.hw.esgob.com.
+68			PTR	sw4.gorras.hw.esgob.com.
+69			PTR	rt1.gorras.hw.esgob.com.
+70			PTR	rt1.mathry.hw.esgob.com.
 
-; 185.61.112.80/30
-81			PTR	eth2.home1.hw.esgob.com.
-82			PTR	gi-1-0-1.homesw2.hw.esgob.com.
-
-; 185.61.112.96/28
-97			PTR	vlan10.homesw2.hw.esgob.com.
-
-; 185.61.112.128/28
-129			PTR	vlan7.homesw2.hw.esgob.com.
-132			PTR	hpsw1.hw.esgob.com.
-133			PTR	ap1.hw.esgob.com.
-134			PTR	ap2.hw.esgob.com.
-135			PTR	ap3.hw.esgob.com.
+81			PTR	eth1.rt1.fishguard.hw.esgob.com.
+82			PTR	eth1.rt1.mathry.hw.esgob.com.
+85			PTR	eth2.rt1.mathry.hw.esgob.com.
+105			PTR	eth2-31.rt1.mathry.hw.esgob.com.
+109			PTR	eth2-32.rt1.gorras.hw.esgob.com.
+86			PTR	eth2.rt1.gorras.hw.esgob.com.
+89			PTR	eth1.rt1.gorras.hw.esgob.com.
+90			PTR	gi1-0-1.sw1.gorras.hw.esgob.com.
+97			PTR	gi1-0-3.sw1.gorras.hw.esgob.com.
+93			PTR	gi1-0-4.sw1.gorras.hw.esgob.com.
+101			PTR	eth1.rt2.gorras.hw.esgob.com.
+102			PTR	gi1-0-2.sw1.gorras.hw.esgob.com.
