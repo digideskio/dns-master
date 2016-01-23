@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 3600	; 1 hour
 esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
- 2015120820   ; serial     
+ 2016012316   ; serial     
 				43200      ; refresh (12 hours)
 				600        ; retry (10 minutes)
 				1209600    ; expire (2 weeks)
@@ -24,6 +24,7 @@ esgob.com		IN SOA	ns0.esgob.co.uk. nat.esgob.com. (
 $ORIGIN esgob.com.
 $TTL 3600	; 1 hour
 google._domainkey	TXT	"v=DKIM1\;" "k=rsa\;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFdjYXxH2t45e1pmmdnmfgIhgPzibMlWBvgBT4vRdmIk1U6Wk5Sl2X68VS6i2+7LpEojfLy4D2UD8uzHVUgz/9vOr3+OxtB/lJKx6TohBbxAUyDWes0pN6E/4XXcv9YgsiXV+J5kmhxT2Pw2mr1KKP6x8o/gxiw1SeWDN+Ge2qNwIDAQAB"
+
 alban			A	46.226.2.182
 ia			A	93.95.228.63
 api			A	195.177.253.192
@@ -164,7 +165,6 @@ ringnode1		A	195.177.253.162
 ringnode1			AAAA	2001:67c:1b40:162::162
 sanau			A	208.118.234.182
 selsig			A	46.19.88.206
-sip1			A	195.177.253.113
 squash			A	195.177.253.131
 test			NS	ns0.esgob.co.uk.
 			NS	ns1
@@ -183,3 +183,4 @@ bgptable1		A	195.177.253.125
 bgptable		A	195.177.253.240
 vmgw1			A	195.177.253.248
 eth0.vmgw1		A	195.177.253.234
+sip1			A	195.177.253.113
